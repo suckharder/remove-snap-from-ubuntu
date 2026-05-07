@@ -1,4 +1,4 @@
-# remove-snap.sh
+# remove_snap.sh
 
 Completely removes Snap and Snapd from Ubuntu systems, pins APT to prevent reinstallation, and optionally installs Firefox from the official Mozilla DEB repository along with the Phoenix configuration overlay.
 
