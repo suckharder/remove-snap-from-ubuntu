@@ -1,4 +1,4 @@
-# remove-snapd.sh
+# remove-snap.sh
 
 Completely removes Snap and Snapd from Ubuntu systems, pins APT to prevent reinstallation, and optionally installs Firefox from the official Mozilla DEB repository along with the Phoenix configuration overlay.
 
@@ -11,8 +11,8 @@ Completely removes Snap and Snapd from Ubuntu systems, pins APT to prevent reins
 ## Usage
 
 ```bash
-chmod +x remove-snapd.sh
-sudo ./remove-snapd.sh [flags]
+chmod +x remove_snap.sh
+sudo ./remove_snap.sh [flags]
 ```
 
 ## Flags
